@@ -1,5 +1,39 @@
 # 코드 풀이 및 설명
 
+## index.html 코드 설명
+
+### HTML 구조
+
+'<!DOCTYPE html>': HTML5 문서 타입을 선언합니다.
+'<html>': HTML 문서의 시작을 나타냅니다.
+'<head>': 문서의 메타데이터와 외부 리소스에 대한 참조를 담고 있습니다.
+'<link rel="stylesheet" type="text/css" href="styles.css">': 외부 CSS 파일인 "styles.css"를 참조하여 스타일을 적용합니다.
+'<body>': 문서의 본문 내용을 나타냅니다.
+    
+### 헤더 (Header) 섹션
+
+'<header>': 웹 페이지의 헤더를 정의합니다.
+'.logo': 로고 이미지를 표시하는 부분입니다.
+'<nav>': 내비게이션 메뉴를 감싸는 컨테이너입니다.
+'<ul>': 메뉴 항목의 목록을 나타냅니다.
+'<li>': 각각의 메뉴 항목입니다.
+'<a href="#section1" class="nav-link">1번</a>': 내비게이션 링크로서 각 섹션의 id를 참조합니다.
+'.right-button': 오른쪽 버튼을 나타냅니다.
+    
+### 각 섹션
+
+'<section>': 각 섹션을 나타냅니다.
+'id="section1"': 섹션을 식별하기 위한 고유한 ID입니다.
+'.box1, .box2, .box3': 각 섹션의 클래스로 스타일이 정의된 박스입니다.
+'<div class="content">': 섹션 내의 콘텐츠를 감싸는 컨테이너입니다.
+'<h1>': 섹션의 제목을 나타냅니다.
+'<p>': 섹션의 내용을 나타냅니다.
+    
+### 스크립트 파일
+
+'<script src="script.js"></script>': 외부 JavaScript 파일 "script.js"를 참조합니다. 이 파일은 페이지 스크롤 및 섹션 간의 전환을 처리하는 JavaScript 코드를 포함하고 있을 것입니다.
+
+
 ## styles.css 코드 설명
 
 ### 1. 전체 페이지 스타일 설정
