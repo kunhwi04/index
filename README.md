@@ -4,7 +4,7 @@
 
 ### HTML 구조
 
-'!DOCTYPE html': HTML5 문서 타입을 선언합니다.
+<!DOCTYPE html>: HTML5 문서 타입을 선언합니다.
 '<html>': HTML 문서의 시작을 나타냅니다.
 '<head>': 문서의 메타데이터와 외부 리소스에 대한 참조를 담고 있습니다.
 '<link rel="stylesheet" type="text/css" href="styles.css">': 외부 CSS 파일인 "styles.css"를 참조하여 스타일을 적용합니다.
