@@ -1,6 +1,6 @@
-## 코드 풀이 및 설명
+# 코드 풀이 및 설명
 
-### script.js 코드 설명
+## script.js 코드 설명
 
 ```markdown
 const sections = document.querySelectorAll("section");
